@@ -27,4 +27,9 @@ $(document).ready(function() {
             $(".business").hide("slow");
         }
     });
+    $("body").scroll(function() {
+        alert($("#index-content").scrollTop());
+    })
+
+
 })

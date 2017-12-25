@@ -15,30 +15,37 @@
     <!-- endbuild -->
 </head>
 <body>
-<!--[if lte IE 8]>
-<p class="browserupgrade">您的浏览器版太老, 请到 <a href="http://browsehappy.com/">这里</a> 更新, 以获取最佳的体验</p>
-<![endif]-->
 
-<header class="col-12">
-    <nav class="top">
-        <!--<a href="#" class="brand"><img src="" alt="回到首页"></a>-->
-        <ul>
-            <li><a href="#">首页</a></li>
-            <li><a href="#">帮助</a></li>
-            <li><a href="#">关于我们</a></li>
-            <li><a href="#">加入我们</a></li>
-            <li><a href="#">联系我们</a></li>
-        </ul>
-    </nav>
-</header>
-<img src="./image/banner.png" class="banner">
+<div class="navbar navbar-index navbar-fixed-top header-active" id = "index-content">
+    <div class="container">
+        <div class="navbar-collapse collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li><a style="padding-top: 5px"><img src="./image/logo.png" alt="logo"></a></li>
+                <li><a href="#" class="font-color">首页</a></li>
+                <li><a href="#" class="font-color">帮助</a></li>
+                <li><a href="#" class="font-color">关于我们</a></li>
+                <li><a href="#" class="font-color">加入我们</a></li>
+                <li><a href="#" class="font-color">联系我们</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right hidden-sm">
+                <li><a href="#" class="font-color">关于</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="banner-content">
+    <img src="./image/banner.png" class="banner">
+</div>
+
 <div class="container">
     <!--<div class="banner col-12" style="margin: 0 auto">-->
     <!--</div>-->
     <div class="add-us">
         加入我们
     </div>
-<table class="table" style="border: 1px solid #CFD8DC">
+
+    <table class="table" style="border: 1px solid #CFD8DC">
     <caption style="height: 40px;font-size: 20px;padding-left: 3rem;border: 1px solid #CFD8DC;background: #cccccc">职位列表</caption>
     <thead>
     <tr>
@@ -75,7 +82,7 @@
         </td>
     </tr>
     <tr>
-        <td class="click-java" style="padding-left: 2rem"><a><i class="glyphicon glyphicon-pushpin"></i>&nbsp;&nbsp;Java开发工程师</a></td>
+        <td class="click-java" style="padding-left: 2rem;cursor: pointer;"><a><i class="glyphicon glyphicon-pushpin"></i>&nbsp;&nbsp;Java开发工程师</a></td>
         <td>软件开发</td>
         <td>上海张江</td>
     </tr>
@@ -98,7 +105,7 @@
         </td>
     </tr>
     <tr>
-        <td class="click-bigdata" style="padding-left: 2rem"><a><i class="glyphicon glyphicon-pushpin"></i>&nbsp;&nbsp;大数据咨询顾问</a></td>
+        <td class="click-bigdata" style="padding-left: 2rem;cursor: pointer;"><a><i class="glyphicon glyphicon-pushpin"></i>&nbsp;&nbsp;大数据咨询顾问</a></td>
         <td>业务运营</td>
         <td>上海张江</td>
     </tr>
@@ -118,7 +125,7 @@
         </td>
     </tr>
     <tr>
-        <td class="click-business" style="padding-left: 2rem"><a><i class="glyphicon glyphicon-pushpin"></i>&nbsp;&nbsp;商务助理</a></td>
+        <td class="click-business" style="padding-left: 2rem;cursor: pointer;"><a><i class="glyphicon glyphicon-pushpin"></i>&nbsp;&nbsp;商务助理</a></td>
         <td>业务运营</td>
         <td>上海张江</td>
     </tr>
@@ -143,17 +150,24 @@
             <p>4、熟练使用相关办公软件；</p>
             <p>5、办事沉稳，细致，思维活跃，有良好的团队合作意识；</p>
             <p>6、责任心强，具备较强的人际沟通、协调和组织能力，能够独立处理事务。</p>
+            <a href="https://www.lagou.com/jobs/3943743.html?source=pl&i=pl-2"></a>
         </td>
     </tr>
     </tbody>
 </table>
-
-
-
+    <div class="row" style="margin: 5px auto;text-align: center;">
+        <span>更多投递渠道</span>
+    </div>
+    <div class="row" style="text-align:center; margin-bottom: 5px">
+        <a href="http://www.zhipin.com/gongsi/927875.html?ka=search_list_company_1"><img src="./image/boss.png" alt="boss"></a>
+        <a href="https://www.lagou.com/gongsi/j246259.html"><img src="./image/lagou.png" alt="lagou"></a>
+        <a href="https://www.liepin.com/company/9369282/"><img src="./image/liepin.png" alt="liepin"></a>
+    </div>
 </div>
+
 <footer>
-    <div>
-        <ul class="nav nav-tabs nav-footer">
+    <div class="navbar-collapse collapse" style="text-align: center;">
+        <ul class="nav navbar-nav" style="display: inline-block;float: none;">
             <li><a href="#">首页</a></li>
             <li><a href="#">帮助</a></li>
             <li><a href="#">关于我们</a></li>
