@@ -171,7 +171,8 @@ header .top ul li a {
 }
 
 .navbar-index {
-
+    /*background-color: #222;*/
+    /*border-color: #080808;*/
 }
 .navbar-index .navbar-nav > li > a:hover,
 .navbar-index .navbar-nav > li > a:focus {
@@ -239,7 +240,6 @@ header .main ul li a {
 }
 
 .add-us {
-    width:40%;
     margin-left: auto;
     margin-right: auto;
     border-bottom: 1px solid #ccc;
