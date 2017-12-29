@@ -100,7 +100,6 @@ li {
    =============== */
 
 body {
-    font-size: 1.2rem;
     line-height: 1.5;
     background-color: #f7f7f7;
 }
@@ -152,9 +151,22 @@ header .top ul li a {
     color: #fff;
 }
 
+header .main ul li a {
+    display: inline-block;
+    padding: 0 2.5rem;
+    line-height: 5.5rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #7c7a65;
+    text-decoration: none;
+}
+
 .font-color {
     color: #d4d4d4;
     transition: all 0.5s ease;
+}
+.active {
+    color: #fff;
 }
 
 .navbar-index {
