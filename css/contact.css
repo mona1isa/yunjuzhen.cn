@@ -216,8 +216,8 @@ header .main ul li a {
 
 footer {
     width: 100%;
-    padding: 3rem 0 5rem;
-    background-color: #ededed;
+    padding: 0.5rem 0 0.5rem;
+    background-color: #2f2f2f;
 }
 
 footer ul {

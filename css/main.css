@@ -235,6 +235,8 @@ header .main ul li {
 }
 
 .add-us {
+    margin-top: 46px;
+    width:40%;
     margin-left: auto;
     margin-right: auto;
     border-bottom: 1px solid #ccc;
@@ -248,11 +250,6 @@ header .main ul li {
 
 /* 底部导航 */
 
-.footer {
-    padding: 3rem 0;
-    background-color: #fff;
-    border-top: 2px solid #eee;
-}
 
 @media only screen and (max-width: 50em) {
 
@@ -295,8 +292,8 @@ header .main ul li {
 
 footer {
     width: 100%;
-    padding: 3rem 0 5rem;
-    background-color: #ededed;
+    padding: 0.5rem 0 0.5rem;
+    background-color: #2f2f2f;
 }
 
 footer ul {
