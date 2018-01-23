@@ -64,7 +64,7 @@
             <p>Mobile：15900949719（葛经理）</p>
             <p>Email： support@yunjuzhen.cn</p>
         </div>
-        <div class="col-md-12 col-lg-6">
+        <div class="col-xs-12 col-md-12 col-lg-6">
             <!--<img src="./image/map.png" class="map">-->
             <div id="wrap" class="my-map">
                 <div id="mapContainer"></div>
@@ -107,14 +107,14 @@
             <li><a href="./contact.html" class="active">联系我们</a></li>
         </ul>
     </div>
-    <p>© 2017 CloudLogic 云俱阵（上海）信息科技有限公司保留所有权利</p>
+    <p>© 2017 云俱阵（上海）信息科技有限公司保留所有权利</p>
 </footer>
 <script src="http://webapi.amap.com/maps?v=1.3&key=8325164e247e15eea68b59e89200988b"></script>
 <script>
     !function(){
-        var infoWindow, map, level = 17,
-            center = {lng: 121.628594, lat: 31.212876},
-            features = [{type: "Marker", name: "云俱阵在这里哦~~", desc: "", color: "red", icon: "cir", offset: {x: -9, y: -31}, lnglat: {lng: 121.628594, lat: 31.212876}}];
+        var infoWindow, map, level = 18,
+            center = {lng: 121.628532, lat: 31.212832},
+            features = [{type: "Marker", name: "云俱阵在这里哦~~", desc: "", color: "red", icon: "cir", offset: {x: -9, y: -31}, lnglat: {lng: 121.62853, lat: 31.212809}}];
 
         function loadFeatures(){
             for(var feature, data, i = 0, len = features.length, j, jl, path; i < len; i++){
@@ -164,7 +164,9 @@
                 map.addControl(new AMap.Scale);
             });
         })
+
     }();
 </script>
+
 </body>
 </html>
